@@ -1,0 +1,151 @@
+body {
+	/*background: #1690A7;*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.body_deg
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 400px;
+	border: 2px solid #ccc;
+	padding: 70px;
+	background: transparent;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	background-color: black;
+	color: white;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: blue;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: darkturquoise;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
+.home-nav a {
+background: #1690A7;
+padding: 20px;
+color: greenyellow;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+.dmin_home-nav{
+	padding: 10px;
+	align-items: start;
+	display: flex;
+
+}
+
+.container
+{
+display:flex;
+flex-direction:column;
+align-items:center;
+padding-left:10px;
+}
+th,td
+{
+border:1px solid black;
+padding:10px;
+}
+#data
+{
+margin-bottom:5px;
+margin-left:5px;
+}
+#data input,button
+{
+padding:10px;
+width:190px;
+
+}
+.table thead, tfoot {
+background:#f9f9f9;
+display:table;
+width:100%;
+}
+.table thead tr{
+background-color: #17b900;
+border-color: #00bd41;
+
+}
+.table tfoot tr{
+background-color: #17b900;
+border-color: #00bd41;
+
+}

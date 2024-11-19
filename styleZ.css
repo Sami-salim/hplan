@@ -1,0 +1,67 @@
+<style>
+body{
+background-color: #d9f2ff !important;
+}
+.tablevk{
+background-color: white;
+ }  
+.tablevk thead, tfoot {
+background:#f9f9f9;
+display:table;
+width:150%;
+}
+.tablevk thead tr{
+background-color: #17b900;
+border-color: #00bd41;
+}
+.tablevk tfoot tr{
+background-color: #17b900;
+border-color: #00bd41;
+}
+.tablevk tbody {
+height:400px;
+overflow:auto;
+overflow-x:hidden;
+display:block;
+width:150%;
+}
+
+.tablevk tbody tr {
+display:table;
+width:100%;
+table-layout:fixed;
+}
+#dalete_div{
+    padding:1px; background-color: red; color: white; width: 50px !important; text-align: center; font-weight: initial;
+   }
+   #edit_div{
+    padding:1px; background-color:#f6b800; color: white; width: 50px !important; text-align: center; font-weight: initial;
+   }
+#btn_edit{
+ width: 105px !important; padding: 10px !important;   
+}
+#btn_delete{
+ width: 105px !important; padding: 10px !important;  
+}
+
+#table_field input
+{
+  
+padding:10px;
+width:150px;
+}
+.container
+{
+display:flex;
+flex-direction:column;
+align-items:center;
+
+}
+.tablevk
+{
+display:flex;
+flex-direction:column;
+align-items:center;
+
+}
+</style>
